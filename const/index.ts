@@ -1,0 +1,1 @@
+export const OPENAI_API_KEY = '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'

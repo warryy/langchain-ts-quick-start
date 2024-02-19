@@ -1,0 +1,30 @@
+{
+  "name": "langchain-quick-start",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev:withkey": "OPENAI_API_KEY=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 ts-node src/1-hello-world/index.ts",
+    "dev:1": "ts-node src/1-hello-world/index.ts",
+    "preinstall": "npx only-allow pnpm",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@langchain/community": "^0.0.30",
+    "@langchain/core": "^0.1.30",
+    "@langchain/openai": "^0.0.14",
+    "dotenv": "^16.4.4",
+    "langchain": "^0.1.20",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.19"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
