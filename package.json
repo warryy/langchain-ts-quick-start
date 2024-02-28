@@ -7,6 +7,7 @@
     "dev:withkey": "OPENAI_API_KEY=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 ts-node src/1-hello-world/index.ts",
     "dev:1": "ts-node src/1-hello-world/index.ts",
     "dev:2": "ts-node src/2-retrieval-chain/index.ts",
+    "dev:3": "ts-node src/3-conversational-retrieval-chain/index.ts",
     "preinstall": "npx only-allow pnpm",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

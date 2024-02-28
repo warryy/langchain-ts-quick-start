@@ -21,3 +21,6 @@
 - 向量存储: 通过传入切片文档和嵌入模型, 来进行向量存储
 - retriver: 检索器, 向量存储暴露出来的能力
 - retrieval-chain: 检索链, 传入文档链和向量存储的检索器, 执行 invoke 进行问答操作
+
+### 3-conversational-retrieval-chain
+> 使链具有对话能力, 即可以记录历史
